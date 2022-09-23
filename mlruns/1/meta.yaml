@@ -1,0 +1,4 @@
+artifact_location: file:///C:/Users/ADMIN/Desktop/Big%20Data%20%26%20Analytics/BD2/mlruns/1
+experiment_id: '1'
+lifecycle_stage: active
+name: my_classification_model

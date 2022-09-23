@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ADMIN/Desktop/Big%20Data%20%26%20Analytics/BD2/mlruns/1/7a7e91fd32ca4bc787b2758f6d49df5a/artifacts
+end_time: 1661499258426
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: 7a7e91fd32ca4bc787b2758f6d49df5a
+run_uuid: 7a7e91fd32ca4bc787b2758f6d49df5a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1661499256444
+status: 3
+tags: []
+user_id: ADMIN
