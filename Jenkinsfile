@@ -1,23 +1,18 @@
 pipeline {
     agent any 
     stages {
-        stage('Build') { 
+        stage('Data acquisition') { 
             steps {
                 
-                sh "build is called"
+                sh ('chmod +x ./src/real_time_twitter_collection.py')
             }
         }
-        stage('Test') { 
+        stage('nlp_pipeline_model') { 
             steps {
                 // 
-                sh "test is called"
+                sh ('chmod +x ./src/nlp_pipeline.py')
             }
         }
-        stage('Deploy') { 
-            steps {
-                // 
-                sh "deploy is called"
-            }
-        }
+       
     } 
 }
