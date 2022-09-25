@@ -4,7 +4,7 @@ pipeline {
         stage('Data acquisition') { 
             steps {
                 
-                sh ('chmod +x ./twitter_collection.py')
+                echo ('chmod +x ./twitter_collection.py')
             }
         }
         
